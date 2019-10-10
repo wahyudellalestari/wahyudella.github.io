@@ -4,14 +4,20 @@
 	<title>Login</title>
 	<style>
 		body{
+			background-color: transparent;
 			text-align: center;
-			background-image: url("https://i0.wp.com/www.ibudanayah.com/wp-content/uploads/2018/04/61927054-assortment-of-the-fresh-vegetables-on-wooden-background.jpg?zoom=2.625&resize=392%2C206&ssl=1");
+			background-image: url("buah sayur2.jpg");
 			background-repeat: no-repeat;
 			background-size: cover;
 			text-align: center;
 		}
+		header{
+			align-items: center;
+		}
 		h1{
 			text-align: left;
+			margin-top: 2%;
+			margin-left: 15%;	
 		}
 		img{
 			width: 70px;
@@ -21,21 +27,37 @@
 			text-align: center;
 			color: black;
 			font-size: 80px;
+			margin-top: -10%;
+			/*padding-top: 0%;*/
 		}
 		 .left-box{
                 background: #DAF7A6;
                 margin-left: 600px;
                 position: absolute;
+                font-size: 10px;
                 top: 0;
-                border-radius: 20px;
-                margin-top: 70px;
-                margin-bottom: 200px;
+                border-radius: 75px;
+                margin-top: 8%;
+                margin-left: 30%;
                 left: 0;
                 box-sizing: border-box;
                 padding: 100px;
-                width: 500px;
-                height: auto;
+                padding-top:60px;
+                width: 40%;
+                height: 70%;
          }
+        input{
+        	width: 250px;
+        	height: 50px;
+        	border-radius: 0px;
+        	background-color: #b7e778;
+        	position: inherit;
+        	font-size: 30px;
+        	color:black;
+        }
+        p{
+        	font-size: 20px;
+        }
 		button
 		{
 			background-color: #f5d742;
@@ -46,20 +68,29 @@
 			height: 40px;
 			border-radius: 20px;
 		}
-
+		.box{
+			background-color: white;
+			width: 100px;
+			height: 50px;	
+			border-radius: 15px;
+			float: left;
+			margin-top: 0%;
+		}
 	</style>
 </head>
 <body>
-	<h1><img src="logo.png"></h1>
+	<div class="box">
+		<h1><img src="logo.png"></h1>
+	</div>
 	<div class="left-box"> 
 	<form>
 	<center>
 	<h2>LOGIN</h2>
-	<input type="text" name="username" placeholder="Username" size="50"><br> <br>
-	<input type="password" name="password" placeholder="Password" size="50"> <br><br><br>
-	<button type="button">Login</button>
-	<p>Belum punya akun?<a href="Signup.html"> Sign Up </a> </p>
-	<p>Atau</p> <br>
+	<input type="text" name="username" placeholder="Username" size="50"><br> <br><br>
+	<input type="password" name="password" placeholder="Password" size="50"> <br><br><br><br>
+	<a href="file:///C:/Users/LENOVO/Documents/WEB/1025_1033/182410101025_182410101033/Beranda1.html#"><button type="button">Login</button></a><br><br>
+	<p>Belum punya akun?<a href="file:///C:/Users/LENOVO/Documents/WEB/1025_1033/182410101025_182410101033/signup.html"> Sign Up </a> </p>
+	<p>Atau</p> <br><br>
 	<img src="facebook.png" width="2%">
 	<img src="search.png" width="2%">
 	</center>
